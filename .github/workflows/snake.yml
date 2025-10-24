@@ -1,46 +1,28 @@
-name: GitHub Snake Animation
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Setiap hari
-  workflow_dispatch:  # Manual
-  push:
-    branches: [main]
-
-permissions:
-  contents: write
-  actions: write
+    - cron: "0 0 * * *"  # Jalan setiap hari pukul 00:00 UTC
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Debug Username
-        run: echo "Username: ${{ github.repository_owner }}"  # Log untuk debug
-
-      - name: Generate Snake
-        uses: Platane/snk@v3.1.1  # Versi terbaru (fix bug 2025)
+      - name: Generate snake animation
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}  # evanmaxsalmina
-        env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-        # Output sederhana: file di root, bukan dist/
-        outputs: |
-          snake.svg
-          snake-dark.svg?palette=github-dark
-          snake.gif
+          github_user_name: evanmaxsalmina
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: List Generated Files
-        run: ls -la  # Log file yang dibuat untuk debug
-
-      - name: Deploy to Output Branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.DEPLOY_TOKEN }}
-          publish_dir: .  # Push semua file dari root
-          target_branch: output
-          commit_message: "Update snake animation [skip ci]"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
