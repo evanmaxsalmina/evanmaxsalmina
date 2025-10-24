@@ -1,28 +1,38 @@
-name: Generate Snake Animation
+name: GitHub Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Jalan setiap hari pukul 00:00 UTC
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Setiap hari jam 00:00 UTC
+  workflow_dispatch:  # Manual run
+  push:
+    branches: [main]
+
+permissions:
+  contents: write  # Izinkan push ke branch output
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Generate snake animation
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Snake Animations
+        uses: Platane/snk@v3  # Support SVG + GIF
         with:
-          github_user_name: evanmaxsalmina
+          github_user_name: ${{ github.evanmaxsalmina }}  # evanmaxsalmina
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}  # Default token, aman
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages
+          target_branch: output
+          commit_message: "Update snake animation [skip ci]"
