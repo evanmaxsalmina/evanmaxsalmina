@@ -1,26 +1,39 @@
 name: GitHub Snake Animation
+
 on:
   schedule:
     - cron: "0 0 * * *"  # Setiap hari jam 00:00 UTC
   workflow_dispatch:  # Manual run
   push:
     branches: [main]
+
+permissions:
+  contents: write  # Izinkan write ke repo
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: Platane/snk/svg-only@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Animations
+        uses: Platane/snk@v3  # Gunakan v3 utama untuk support GIF + SVG
         with:
-          github_user_name: evanmaxsalmina
+          github_user_name: ${{ github.repository_owner }}  # Dinamis, cocok repo profil
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/github-snake.gif  # Fallback GIF
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
-      - uses: peaceiris/actions-gh-pages@v4
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}  # Pakai secret repo, aman!
+
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.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 }}
+          github_token: ${{ secrets.DEPLOY_TOKEN }}  # Pakai secret
           publish_dir: ./dist
-          publish_branch: output
+          target_branch: output  # Fix: Bukan publish_branch, tapi target_branch
+          commit_message: "Update snake animation [skip ci]"
