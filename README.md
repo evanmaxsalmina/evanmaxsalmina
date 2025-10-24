@@ -9,7 +9,7 @@ Saya **Frontend Developer** dari Indonesia, spesialis bikin antarmuka web **cepe
 ## 🌟 Tentang Saya
 
 - 💼 Fokus: **UI/UX**, animasi web, performa.
-- 🌍 Lokasi: \[Jakarta, Indonesia\] *(ganti dengan kotamu)*.
+- 🌍 Lokasi: \[Kudus, Jawa Tengah, Indonesia\].
 - 🎯 Misi: Web **inklusif** dan **super cepat**.
 - 📚 Belajar: **Next.js**, **Three.js**, **Web Accessibility**.
 - ☕ Fun Fact: Kopi latte bahan bakar, *Cyberpunk 2077* inspirasi! 😎
