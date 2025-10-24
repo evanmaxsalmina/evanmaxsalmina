@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write  # Izinkan push ke branch output
+  actions: write   # Izinkan workflow menulis
 
 jobs:
   generate:
@@ -19,15 +20,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Snake Animations
-        uses: Platane/snk@v3  # Support SVG + GIF
+        uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.evanmaxsalmina }}  # evanmaxsalmina
+          github_user_name: ${{ github.repository_owner }}  # Dinamis, ambil dari repo owner
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake.gif
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake.gif
         env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}  # Default token, aman
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}  # Default token
 
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
