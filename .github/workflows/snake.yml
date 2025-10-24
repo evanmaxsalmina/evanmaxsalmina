@@ -18,9 +18,9 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/github-snake.gif  # Fallback GIF
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.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 }}
       - uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.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 }}
           publish_dir: ./dist
           publish_branch: output
