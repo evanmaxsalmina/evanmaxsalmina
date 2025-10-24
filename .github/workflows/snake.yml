@@ -1,0 +1,26 @@
+name: GitHub Snake Animation
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Setiap hari jam 00:00 UTC
+  workflow_dispatch:  # Manual run
+  push:
+    branches: [main]
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: evanmaxsalmina
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif  # Fallback GIF
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
