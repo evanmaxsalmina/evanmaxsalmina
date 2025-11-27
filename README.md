@@ -1,5 +1,8 @@
 <!-- Banner Eksternal (Camo Aktif) -->
-![Foto Evan](https://github.com/user-attachments/assets/6a437f57-1780-4581-a8dc-1ebd66f09de6) 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6a437f57-1780-4581-a8dc-1ebd66f09de6" width="300" alt="Foto Evan">
+  <p>Foto Evan</p>
+</div>
 
 <!-- Typing Animation -->
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=26&pause=600&color=58A6FF&center=true&vCenter=true&width=460&lines=I'm+Muhammad+Evan+Maxsalmina!;Frontend+Wizard;React+%26+Next.js+Master;UI%2FUX+Crafter)
