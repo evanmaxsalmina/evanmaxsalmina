@@ -1,5 +1,5 @@
 <!-- Banner Eksternal (Camo Aktif) -->
-![Banner Evan](https://i.imgur.com/your-banner.png) <!-- Ganti dengan URL Imgur -->
+![Foto Evan](https://github.com/user-attachments/assets/6a437f57-1780-4581-a8dc-1ebd66f09de6) 
 
 <!-- Typing Animation -->
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=26&pause=600&color=58A6FF&center=true&vCenter=true&width=460&lines=I'm+Muhammad+Evan+Maxsalmina!;Frontend+Wizard;React+%26+Next.js+Master;UI%2FUX+Crafter)
