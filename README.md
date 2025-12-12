@@ -5,7 +5,9 @@
 </div>
 
 <!-- Typing Animation -->
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=26&pause=600&color=58A6FF&center=true&vCenter=true&width=460&lines=I'm+Muhammad+Evan+Maxsalmina!;Frontend+Wizard;React+%26+Next.js+Master;UI%2FUX+Crafter)
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=26&pause=600&color=58A6FF&center=true&vCenter=true&width=460&lines=I'm+Muhammad+Evan+Maxsalmina!;Frontend+Wizard;React+%26+Next.js+Master;UI%2FUX+Crafter" alt="Typing SVG"/>
+</p>
 
 ---
 
@@ -56,25 +58,6 @@ My Website : https://evan-portfolio-w.netlify.app
 | [Portfolio Website](https://github.com/evanmaxsalmina/portfolio) | Portofolio dengan animasi halus. | Next.js, Tailwind, Framer Motion | ![Screenshot](https://i.imgur.com/your-screenshot1.png) |
 | [E-Commerce UI](https://github.com/evanmaxsalmina/ecommerce-ui) | Toko online dengan dark mode. | React, TypeScript, Styled-Components | ![Screenshot](https://i.imgur.com/your-screenshot2.png) |
 | [Task Planner](https://github.com/evanmaxsalmina/task-planner) | Aplikasi tugas drag-and-drop. | Vue.js, Tailwind, Firebase | ![Screenshot](https://i.imgur.com/your-screenshot3.png) |
-
----
-
-## 🐍 Snake Eating My Commits
-![Snake GIF](https://raw.githubusercontent.com/evanmaxsalmina/evanmaxsalmina/output/snake.gif) <!-- Fallback GIF -->
-![Snake SVG Light](https://raw.githubusercontent.com/evanmaxsalmina/evanmaxsalmina/output/snake.svg)
-![Snake SVG Dark](https://raw.githubusercontent.com/evanmaxsalmina/evanmaxsalmina/output/snake-dark.svg)
-
----
-
-## 📊 Statistik GitHub
-![Stats](https://github-readme-stats.vercel.app/api?username=evanmaxsalmina&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=evanmaxsalmina&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800)
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=evanmaxsalmina&theme=tokyonight&hide_border=true)
-
----
-
-## 🏆 Pencapaian
-![Trophies](https://github-profile-trophy.vercel.app/?username=evanmaxsalmina&theme=tokyonight&no-frame=true&margin-w=10)
 
 ---
 
