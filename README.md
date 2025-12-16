@@ -15,7 +15,7 @@
 
 Saya **Frontend Developer** dari Indonesia, spesialis bikin antarmuka web **cepet**, **cantik**, dan **ramah pengguna**. Pake **React**, **TypeScript**, dan **Tailwind CSS**, saya ubah ide jadi pengalaman digital kece. Lagi eksplor **Next.js** dan **Three.js** buat proyek next-level! 🔥
 
-My Website : https://evan-portfolio-w.netlify.app
+My Website : https://evanmaxsal.web.app
 
 ![Frontend Dev](https://img.shields.io/badge/Frontend_Dev-58A6FF?style=for-the-badge&logo=react)
 ![Indonesia](https://img.shields.io/badge/Indonesia-FF6B6B?style=for-the-badge&logo=geo)
