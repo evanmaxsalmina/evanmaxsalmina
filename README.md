@@ -67,10 +67,8 @@ My Website : https://evanmaxsal.web.app
 ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter)
 ![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=domain)
 
-- Email: [muhammad.evan@example.com](mailto:muhammad.evan@example.com)
-- LinkedIn: [linkedin.com/in/evanmaxsalmina](https://linkedin.com/in/evanmaxsalmina)
-- Twitter: [x.com/EvanMaxsalmina](https://x.com/EvanMaxsalmina)
-- Portfolio: [evanmaxsalmina.dev](https://evanmaxsalmina.dev)
+- Email: [ytrie09@gmail.com](mailto:ytrie09@gmail.com)
+- Portfolio: [evanmaxsalmina](https://evanmaxsal.web.app)
 
 ---
 
