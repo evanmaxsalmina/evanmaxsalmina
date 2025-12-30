@@ -1,75 +1,81 @@
-<!-- Banner Eksternal (Camo Aktif) -->
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6a437f57-1780-4581-a8dc-1ebd66f09de6" width="300" alt="Foto Evan">
-  <p>Foto Evan</p>
+  <img src="https://github.com/user-attachments/assets/6a437f57-1780-4581-a8dc-1ebd66f09de6" width="300" alt="Foto Evan" style="border-radius: 50%;">
 </div>
 
-<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=26&pause=600&color=58A6FF&center=true&vCenter=true&width=460&lines=I'm+Muhammad+Evan+Maxsalmina!;Frontend+Wizard;React+%26+Next.js+Master;UI%2FUX+Crafter" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=24&pause=800&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi,+I'm+Muhammad+Evan+Maxsalmina!;Frontend+Web+Developer;Mobile+Developer+(Flutter);React+%26+TypeScript+Enthusiast" alt="Typing SVG"/>
 </p>
 
 ---
 
 # 👨‍💻 Muhammad Evan Maxsalmina
 
-Saya **Frontend Developer** dari Indonesia, spesialis bikin antarmuka web **cepet**, **cantik**, dan **ramah pengguna**. Pake **React**, **TypeScript**, dan **Tailwind CSS**, saya ubah ide jadi pengalaman digital kece. Lagi eksplor **Next.js** dan **Three.js** buat proyek next-level! 🔥
+Halo! Saya **Evan**, seorang pengembang software dari Indonesia. 🇮🇩
 
-My Website : https://evanmaxsal.web.app
+Saya sangat tertarik dengan **Frontend Web** dan **Mobile Development**. Sehari-hari saya biasa ngoding menggunakan **React** & **TypeScript** untuk web, dan sekarang lagi mendalami **Flutter** (Dart) untuk membangun aplikasi mobile yang efisien dan responsif.
 
-![Frontend Dev](https://img.shields.io/badge/Frontend_Dev-58A6FF?style=for-the-badge&logo=react)
-![Indonesia](https://img.shields.io/badge/Indonesia-FF6B6B?style=for-the-badge&logo=geo)
+Tujuan saya simpel: bikin aplikasi yang gak cuma jalan, tapi juga nyaman dipakai dan kodenya rapi.
+
+🌐 **Website:** [evanmaxsal.web.app](https://evanmaxsal.web.app)
+
+<div align="center">
+
+![Frontend Dev](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Mobile Dev](https://img.shields.io/badge/Mobile-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Followers](https://img.shields.io/github/followers/evanmaxsalmina?style=social)
-![Stars](https://img.shields.io/github/stars/evanmaxsalmina/evanmaxsalmina?style=social)
+
+</div>
 
 ---
 
-## 🌟 Tentang Saya
-- 💼 Fokus: **UI/UX**, animasi web, performa.
-- 🌍 Lokasi: [Kudus, Jawa Tengah, Indonesia].
-- 🎯 Misi: Web **inklusif** dan **super cepat**.
-- 📚 Belajar: **Next.js**, **Three.js**, **Web Accessibility**.
-- ☕ Fun Fact: Kopi latte bahan bakar, *Cyberpunk 2077* inspirasi! 😎
-
-> "Code is art, the web is my canvas." – Evan
+## 🧐 Tentang Saya
+- 🔭 **Fokus saat ini:** Mengembangkan aplikasi *cross-platform* dengan Flutter dan memperdalam ekosistem React (Next.js).
+- 📍 **Lokasi:** Kudus, Jawa Tengah, Indonesia.
+- 📚 **Sedang dipelajari:** State Management (Bloc/Riverpod) & Integrasi IoT.
+- ⚡ **Fun Fact:** Koding itu 10% ngetik, 90% nyari kenapa error di StackOverflow. 😅
 
 ---
 
-## 🛠️ Keahlian
-| Tech | Badge |
-|------|-------|
-| React | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) |
-| TypeScript | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript) |
-| Tailwind CSS | ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css) |
-| Next.js | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js) |
-| Figma | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma) |
-| Vite | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite) |
+## 🛠️ Tech Stack & Tools
 
-- **Frontend**: React, Next.js, Vue.js, TypeScript, JavaScript
-- **Styling**: Tailwind CSS, Sass, Framer Motion
-- **Tools**: Figma, Git, Vite, Webpack
-- **Lainnya**: REST API, GraphQL, Jest
+### **Core Languages**
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 
----
+### **Web Development**
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-## 🚀 Proyek Unggulan
-| Proyek | Deskripsi | Tech | Demo/Screenshot |
-|--------|-----------|------|-----------------|
-| [Portfolio Website](https://github.com/evanmaxsalmina/portfolio) | Portofolio dengan animasi halus. | Next.js, Tailwind, Framer Motion | ![Screenshot](https://i.imgur.com/your-screenshot1.png) |
-| [E-Commerce UI](https://github.com/evanmaxsalmina/ecommerce-ui) | Toko online dengan dark mode. | React, TypeScript, Styled-Components | ![Screenshot](https://i.imgur.com/your-screenshot2.png) |
-| [Task Planner](https://github.com/evanmaxsalmina/task-planner) | Aplikasi tugas drag-and-drop. | Vue.js, Tailwind, Firebase | ![Screenshot](https://i.imgur.com/your-screenshot3.png) |
+### **Mobile Development**
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+
+### **Tools**
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
 
-## 📫 Hubungi Saya
-![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)
-![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter)
-![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=domain)
+## 🚀 Proyek Terpilih
 
-- Email: [ytrie09@gmail.com](mailto:ytrie09@gmail.com)
-- Portfolio: [evanmaxsalmina](https://evanmaxsal.web.app)
+| Proyek | Tech Stack | Deskripsi |
+|--------|------------|-----------|
+| **[Portfolio Website](https://evanmaxsal.web.app)** | React, TS, Tailwind | Website personal untuk showcase skill dan project. |
+| **Mobile App (Coming Soon)** | Flutter, Dart, Firebase | Aplikasi mobile manajemen data (Work in progress). |
+| **Web Dashboard UI** | React, Vite, Chart.js | Eksperimen dashboard admin yang responsif. |
 
 ---
 
-![Fun GIF](https://media.giphy.com/media/your-gif-id/giphy.gif) <!-- Camo aktif -->
+## 📫 Let's Connect!
+
+Kalau mau diskusi soal coding, project bareng, atau sekadar sapa-sapa, silakan kontak saya di:
+
+<a href="mailto:ytrie09@gmail.com">
+  <img src="https://img.shields.io/badge/Email-ytrie09%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://evanmaxsal.web.app">
+  <img src="https://img.shields.io/badge/Website-evanmaxsal.web.app-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+</a>
