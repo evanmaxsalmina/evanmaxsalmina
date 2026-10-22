@@ -111,11 +111,12 @@ More projects are available in my repositories.
 
 ## 🐍 Contribution Snake
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/evanmaxsalmina/evanmaxsalmina/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://evanmaxsalmina.github.io/evanmaxsalmina/github-contribution-grid-snake-dark.svg" />
+    <img alt="GitHub Snake" src="https://evanmaxsalmina.github.io/evanmaxsalmina/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 ---
 
